@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Home page
+        </title>
+        <script src="headerfootermanager.js"></script>
+        <script src="functions.js"></script>
+        <style>
+            *
+            {
+                text-align: center;
+            }
+            body{
+                background-image: url("bck1.jpg");
+                background-repeat: no-repeat;
+            }
+            .content
+            {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                margin-right:10%;
+                margin-left:10%;
+                align-items: center;
+                padding-bottom: 20px;
+            }
+            button{
+                border: none;
+                box-sizing: border-box;
+                background-image: linear-gradient(to bottom,dodgerblue,white);
+                transition:transform 0.2s ease-in-out;
+                width:90%;
+                margin: 10px;
+                border-radius: 10px;
+            }
+            button:hover
+            {
+                transform: scale(1.1);
+            }
+            img{
+                width:70%;
+                height: auto;
+                
+            }
+           .description
+           {
+            background-image: linear-gradient(to bottom,darkblue,black);
+            border-radius: 5px;
+            color: white;
+            box-shadow: 3px 3px 3px gray;
+            font-style: italic;
+           }
+        </style>
+    </head>
+    <body>
+        <special-header></special-header>
+        <div class="content">
+        <div><button onclick="myfunction3()">
+            <img src="pic15 fashion shop.png">
+        <p class="description">Take a look at our new fasion shop</p>
+        
+        </button></div>  
+        <div><button onclick="myfunction1()" >
+            <img src="pic13 business page.png">
+            <p class="description">Let your business go online.</p>
+        </button></div> 
+        <div><button onclick="myfunction2()" >
+            <img src="pic14 portfolio.png">
+            <p class="description">Showcase your work and skills</p>
+        </button></div> 
+        <div><button onclick="myfunction4()">
+            <img src="pic16 catalogue.png">
+             <p class="description">Choose your favourite shade</p>
+        </button></div> 
+        <div><button onclick="alert('clicked')">
+            <img src="pic 6 BMI Calculator.png">
+            <p class="description">Know your BMI.Stay healthy. Stay fit.</p>
+        </button></div> 
+        <div><button onclick="myfunction5()">
+            <img src="pic8 counter.png">
+            <p class="description">Try image button counter...</p>
+        </button></div> 
+        <div><button onclick="alert('clicked')"><img src="pic5 Clock.png"></button></div> 
+        <div><button onclick="alert('clicked')"><img src="pic5 Clock.png"></button></div> 
+        <div><button onclick="alert('clicked')"><img src="pic5 Clock.png"></button></div> 
+        <div><button onclick="alert('clicked')"><img src="pic5 Clock.png"></button></div> 
+        <div><button onclick="alert('clicked')"><img src="pic5 Clock.png"></button></div> 
+        <div><button onclick="alert('clicked')"><img src="pic5 Clock.png"></button></div> 
+        </div>
+        <special-footer></special-footer>
+    </body>
+</html>
