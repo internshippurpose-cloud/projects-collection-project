@@ -53,6 +53,7 @@ class SpecialFooter extends HTMLElement
                 color: white;
                 text-align: center;
                 padding: 20px;
+                margin-top:auto;
         ">
             <p>&copy;All rights reserved,developed by Projects Collection 2026</p>
         </div>
